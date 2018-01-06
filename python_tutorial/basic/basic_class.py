@@ -28,7 +28,7 @@ p = people('runoob', 10, 30)
 p.speak()
 
 
-# 单继承示例 student继承people
+# 单继承示例 student继承people，多继承用逗号隔开
 class student(people):
     grade = ''
 

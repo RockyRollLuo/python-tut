@@ -67,5 +67,5 @@ newRowX[2] = 0
 print("newRowX:" + str(newRowX))
 
 # 预测代码
-predictedY = clf.predict(newRowX)
+predictedY = clf.predict([newRowX])
 print("predictedY:" + str(predictedY))

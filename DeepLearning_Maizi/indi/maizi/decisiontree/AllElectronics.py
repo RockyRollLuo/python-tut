@@ -5,9 +5,9 @@ from sklearn import preprocessing
 from sklearn.externals.six import StringIO
 
 # Read in the csv file and put features into list of dict and list of class label
-allElectronicsData = open(r'/home/zhoumiao/MachineLearning/01decisiontree/AllElectronics.csv', 'rb')
+allElectronicsData = open(r'.\datasets\AllElectronics.csv', 'r')
 reader = csv.reader(allElectronicsData)
-headers = reader.next()
+headers = next(reader)
 
 print(headers)
 
@@ -15,9 +15,9 @@ featureList = []
 labelList = []
 
 for row in reader:
-    labelList.append(row[len(row)-1])
+    labelList.append(row[len(row) - 1])
     rowDict = {}
-    for i in range(1, len(row)-1):
+    for i in range(1, len(row) - 1):
         rowDict[headers[i]] = row[i]
     featureList.append(rowDict)
 
@@ -25,7 +25,7 @@ print(featureList)
 
 # Vetorize features
 vec = DictVectorizer()
-dummyX = vec.fit_transform(featureList) .toarray()
+dummyX = vec.fit_transform(featureList).toarray()
 
 print("dummyX: " + str(dummyX))
 print(vec.get_feature_names())
@@ -43,7 +43,6 @@ clf = tree.DecisionTreeClassifier(criterion='entropy')
 clf = clf.fit(dummyX, dummyY)
 print("clf: " + str(clf))
 
-
 # Visualize model
 with open("allElectronicInformationGainOri.dot", 'w') as f:
     f = tree.export_graphviz(clf, feature_names=vec.get_feature_names(), out_file=f)
@@ -54,9 +53,8 @@ print("oneRowX: " + str(oneRowX))
 newRowX = oneRowX
 newRowX[0] = 1
 newRowX[2] = 0
+newRowX=[newRowX]
 print("newRowX: " + str(newRowX))
 
 predictedY = clf.predict(newRowX)
 print("predictedY: " + str(predictedY))
-
-

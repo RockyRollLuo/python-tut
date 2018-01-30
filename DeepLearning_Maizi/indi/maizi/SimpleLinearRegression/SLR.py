@@ -9,8 +9,10 @@ def fitSLR(x,y):
     for i in range(0,n):
         numerator += (x[i]-np.mean(x))*(y[i]-np.mean(y))
         dinominator += (x[i]-np.mean(x))**2
-        
+
+    # 分子
     print("numerator:"+str(numerator))
+    # 分母
     print("dinominator:"+str(dinominator))
     
     b1 = numerator/float(dinominator)

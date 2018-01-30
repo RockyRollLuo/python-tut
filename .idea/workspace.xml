@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a8b8706-96f9-4b02-b521-f42a5ff61395" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/python-tutorial.iml" afterPath="$PROJECT_DIR$/.idea/python-tutorial.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNN.py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNN.py" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNNImplementation (my).py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNNImplementation (my).py" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNNImplementation (myfix).py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNNImplementation (myfix).py" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNNImplementation.py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/KNearestNeighbor/KNNImplementation.py" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/SportVectorMachie/sklearnExample.py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/SportVectorMachie/sklearnExample.py" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/UnlinearRegression/ULR.py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/UnlinearRegression/ULR.py" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/decisiontree/mydecisiontree.py" afterPath="$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/decisiontree/mydecisiontree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/UnlinearRegression/ULR.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -329,6 +321,14 @@
       <option name="presentableId" value="Default" />
       <updated>1515228782104</updated>
     </task>
+    <task id="LOCAL-00001" summary="更新">
+      <created>1517274828626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517274828626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,6 +358,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,6 +626,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
           <caret line="9" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,7 +659,7 @@
     <entry file="file://$PROJECT_DIR$/DeepLearning_Maizi/indi/maizi/UnlinearRegression/ULR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

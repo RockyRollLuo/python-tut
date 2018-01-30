@@ -22,10 +22,10 @@ def gradientDescent(x,y,theta,alpha,m,numIterations):
     return theta
 
 x,y = genData(100, 25, 10)
-print "x:"
-print x
-print "y:"
-print y
+print("x:")
+print(x)
+print("y:")
+print (y)
 
 m,n = np.shape(x)
 n_y = np.shape(y)

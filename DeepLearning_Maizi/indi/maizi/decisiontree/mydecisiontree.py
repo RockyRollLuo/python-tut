@@ -2,12 +2,12 @@
 # @Time    : 2018/1/10
 # @Author  : Rocky
 
-from sklearn.feature_extraction import DictVectorizer
 import csv
 import os
+
 from sklearn import preprocessing
 from sklearn import tree
-from sklearn.externals.six import StringIO
+from sklearn.feature_extraction import DictVectorizer
 
 basePath = os.path.abspath(".")
 parentPath = os.path.abspath("..")

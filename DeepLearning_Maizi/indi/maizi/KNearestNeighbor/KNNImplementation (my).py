@@ -53,13 +53,13 @@ def getResponse(neighbors):
 def getAccuracy(testSet, predictions):
     correct = 0
     for x in range(len(testSet)):
-        #print 'test'
+        print('test')
         # test = testSet[x][-1]
         # print test
         # print 'pre'
         # pre = predictions[x]
         # print pre
-    print ('test: ' + repr(testSet[x][-1])) repr(testSet[x][-1])
+    print ('test: ' + repr(testSet[x][-1]))
     print ('pre: ' + repr(predictions[x]))
     # if testSet[z][-1] == predictions[z]:
     #     correct += 1
@@ -76,8 +76,8 @@ def main():
     testSet = []
     split = 0.70
     loadDataset(r'/home/zhoumiao/ML/02KNearestNeighbor/irisdata.txt', split, trainingSet, testSet)
-    print 'Train set: ' + repr(len(trainingSet))
-    print 'Test set: ' + repr(len(testSet))
+    print('Train set: ' + repr(len(trainingSet)))
+    print('Test set: ' + repr(len(testSet)))
     #generate predictions
     predictions = []
     k = 3
